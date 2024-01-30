@@ -13,9 +13,9 @@ Two algorithms are implemented with Pytorch.
 
 FG-W and FG-A are proposed in [1], while local guess guidance is proposed in [2].
 
-[1] Ren, Mengye, Simon Kornblith, Renjie Liao, and Geoffrey Hinton. "Scaling Forward Gradient With Local Losses." In ICLR, 2023.
+[1] Ren Mengye, Simon Kornblith, Renjie Liao, and Geoffrey Hinton. "Scaling Forward Gradient With Local Losses." In ICLR, 2023.
 
-[2] Fournier, Louis, Stéphane Rivaud, Eugene Belilovsky, Michael Eickenberg, and Edouard Oyallon. "Can Forward Gradient Match Backpropagation?." In ICML, 2023.
+[2] Fournier Louis, Stéphane Rivaud, Eugene Belilovsky, Michael Eickenberg, and Edouard Oyallon. "Can Forward Gradient Match Backpropagation?." In ICML, 2023.
 
 ## Reproduce the results
 
