@@ -26,7 +26,7 @@ python -u main.py --arch resnet18-16b --n_epoch 100 --lr 5e-2 --wd 5e-4 --algo L
 python -u main.py --arch resnet18-16b --n_epoch 100 --lr 5e-2 --wd 5e-4 --algo LocalFG-A
 ```
 
-will give the following test accuracies on CIFAR10.
+will give the following test accuracies on CIFAR10 dataset.
 
 | Algorithm      | LocalFG-W | LocalFG-A |
 | -------------- | --------- | --------- |
