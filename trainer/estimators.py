@@ -107,24 +107,11 @@ def avg_weight_perturb_estimator(net):
 # ========== Weight Perturb Estimator ==========
 def _weight_perturb_estimator(module):
     if module.weight.requires_grad:
-        print('module that weight requires grad')
-        print(module)
-        print(module.weight.shape)
         weighted_grad = compute_projection(module.target['weight'],
                                            module.guess['weight'])
         module.weight.grad = weighted_grad.sum(dim=0)
     if module.bias is not None and module.bias.requires_grad:
         weighted_grad = compute_projection(module.target['bias'], module.guess['bias'])
-        
-        print('module that bias requires grad')
-        print(module)
-        print('weighted grad in bias')
-        print(weighted_grad.shape)
-        print('bias')
-        print(module.bias.shape)
-        print('weight')
-        print(module.weight.shape)
-
         module.weight.grad = weighted_grad.sum(dim=0)
     return None
 
