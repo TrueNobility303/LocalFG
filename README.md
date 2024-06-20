@@ -22,8 +22,8 @@ FG-W and FG-A are proposed in [1], while local guess guidance is proposed in [2]
 Run the commands with
 
 ```
-python -u main.py --arch resnet18-16b --n_epoch 100 --lr 5e-2 --wd 5e-4 --algo LocalFG-W
-python -u main.py --arch resnet18-16b --n_epoch 100 --lr 5e-2 --wd 5e-4 --algo LocalFG-A
+python -u main.py --arch resnet18-16b --n_epoch 100 --lr 5e-2 --wd 5e-4 --algo LocalFG-W --status
+python -u main.py --arch resnet18-16b --n_epoch 100 --lr 5e-2 --wd 5e-4 --algo LocalFG-A --status
 ```
 
 will give the following test accuracies on CIFAR10 dataset.
