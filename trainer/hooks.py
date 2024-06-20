@@ -1,7 +1,7 @@
 from functools import partial
 import torch
 from trainer.per_sample_gradients import linear_gradient, conv_gradient, batchnorm_gradient
-from trainer.new_estimators import compute_projection, compute_span_projection, batch_scalar_product, per_sample_product
+from trainer.estimators import compute_projection, compute_span_projection, batch_scalar_product, per_sample_product
 
 
 def forward_hook(module, input, output):
