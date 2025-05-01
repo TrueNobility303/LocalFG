@@ -1,6 +1,6 @@
 # LocalFG
 
-[ICML23] Can Forward Gradient Match Backpropagation?
+Unofficial implementation of "Can Forward Gradient Match Backpropagation?" [ICML23], with a different finding.
 
 
 ## Algorithm
