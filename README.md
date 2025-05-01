@@ -33,5 +33,5 @@ will give the following test accuracies on CIFAR10 dataset.
 | Train Accuracy | 97.9 %    | 98.2 %    |
 | Test Accuracy  | 88.8 %    | 89.4 %    |
 
-In our experiments, activity perturbation has better performance than weight pertubation, as also observed in [1].
+In our experiments, activity perturbation has better performance than weight perturbation, which is consistent with [1], but different from the result of [2].
 
